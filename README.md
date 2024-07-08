@@ -1,1 +1,1 @@
-# wink_bootcamp_study
+# WINK 여름 선트캠프 스터디
