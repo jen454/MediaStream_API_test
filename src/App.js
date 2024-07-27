@@ -1,8 +1,8 @@
 // App.js
 import React, { useState } from 'react';
+import styled from 'styled-components';
 import RecordingComponent from './test/RecordingComponent';
 import FileDownloadComponent from './test/FileDownloadComponent';
-import styled from 'styled-components';
 import ScreenRecorder from './test/ScreenRecorder';
 
 function App() {
