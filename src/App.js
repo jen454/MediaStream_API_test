@@ -1,18 +1,14 @@
 // App.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import RecordingComponent from './test/RecordingComponent';
-import FileDownloadComponent from './test/FileDownloadComponent';
 import ScreenRecorder from './test/ScreenRecorder';
+import AudioRecorder from './test/AudioRecorder';
 
 function App() {
-  const [fileUrl, setFileUrl] = useState('');
-
   return (
     <Container>
       <ScreenRecorder />
-      {/* <RecordingComponent onConversionComplete={setFileUrl} />
-      {fileUrl && <FileDownloadComponent fileUrl={fileUrl} />} */}
+      <AudioRecorder />
     </Container>
   );
 }
@@ -22,6 +18,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
 `;
 
 export default App;
