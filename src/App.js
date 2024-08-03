@@ -1,5 +1,5 @@
 // App.js
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import ScreenRecorder from './test/ScreenRecorder';
 import AudioRecorder from './test/AudioRecorder';
