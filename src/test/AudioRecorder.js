@@ -40,7 +40,7 @@ const AudioRecorder = () => {
 
       // MediaRecorder 인스턴스를 생성하고 설정
       mediaRecorderRef.current = new MediaRecorder(combinedStream, {
-        mimeType: 'audio/webm',
+        mimeType: 'audio/webm;codecs=opus',
       });
 
       mediaRecorderRef.current.ondataavailable = (event) => {
